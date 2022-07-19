@@ -12,9 +12,9 @@ export class TicketService {
   constructor(private http:HttpClient) { }
 
   bookTicket(ticket:Ticket){
-    return this.http.post(this.host, ticket);
+    
   }
   getAllTickets(){
-    return this.http.get(this.host);
+    
   }
 }
