@@ -8,7 +8,7 @@ import { Movie } from '../models/movie';
 })
 export class CardComponent implements OnInit {
 
-  
+  @Input()
   movie:Movie;
 
   constructor() { }
